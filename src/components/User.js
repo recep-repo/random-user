@@ -11,7 +11,7 @@ const User = ({user}) => {
         <Card.Img variant="top" src={avatar_url} />
         <Card.Body>
           <Card.Title>Username: {login}</Card.Title>
-          <Card.Title>Password: {node_id}</Card.Title>
+          <Card.Title>ID: {node_id}</Card.Title>
           <Card.Title className='mb-5'>
            Github: {html_url}
           </Card.Title>
